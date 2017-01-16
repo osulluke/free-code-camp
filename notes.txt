@@ -20,3 +20,37 @@ HTML5 and CSS (5 hours) - notes
  - Showed how to use all 16M+ colors using the 'color:#FFA4B9' hex color encodings.
  - Shows how to use the open-source fonts that google provides on your site.
  - Create numbered and unordered lists.
+ 
+Responsive design with Bootstrap (5 hours) - notes
+ 
+ - Bootstrap is a CSS framework (Code library) that is used for 'Responsive Design'.
+ - Responsive Design is the idea that you shouldn't need to write multiple versions 
+ of your webpage depending on what screen it is viewed on (i.e. mobile vs. 
+ traditional browser).
+ - Get Bootstrap by adding this line to your html file:
+    <link rel="stylesheet" href="//maxcdn.bootstrapcdn.com/bootstrap/3.3.1/css/bootstrap.min.css"/>
+ - The class 'container-fluid' is likely :) a CSS class provided by the Bootstrap 
+ framework.
+ - The class 'img-responsive' will make it so images will fill the entire width of 
+ a phone, webpage, etc.
+ - Class 'text-center' does just what it sounds like.
+ - Class 'btn' is a CSS button that looks much nicer than the defaults.
+ - Class 'btn-block' will force a btn element to take up the entire width of a screen. 
+ Normally, btn elements are only as wide as the text they contain.
+ - Class 'btn-primary' will add a color to you button, and should be used on the actions 
+ you want your users to take.
+ - Class 'btn-info' will highlight additional actions a user could take.
+ - Class 'btn-danger' will highlight your button red.
+ - Class 'row' allows you to apply it to a <div> element, and puts everything in one 
+ row. Bootstrap rows are broken into 12 columns, and are specified as 'col-xs-*' where 
+ the '*' referes to how many columns the element should span. 'xs' in this case refers 
+ to the screen size of the displaying device (phone screen = xs).
+ - Clever that the Bootstrap designers use '12' columns...why? Because you can divide 
+ 12 into integer 1/2, 1/3, and 1/4...smart.
+ - Now we're getting into 'span' elements...what do they do?
+ - You can add a cool library of icons called 'Font Awesome' by adding this:
+ <link rel="stylesheet" href="//maxcdn.bootstrapcdn.com/font-awesome/4.5.0/css/font-awesome.min.css"/>
+
+(Stopped at 'Create a Bootstrap Headline')
+
+ - 
