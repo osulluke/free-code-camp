@@ -1,0 +1,22 @@
+HTML5 and CSS (5 hours) - notes
+
+ - Introduced the basics of different HTML5 elements and CSS styling techniques.
+ - Showed various ways to override CSS selectors using the '.class' functionality, 
+ using the #id, attribute, as well as the "!important" selector to ensure that an 
+ element you're styling is styled appropriately. Also showed how 'inline' styling 
+ works.
+ - CSS classes basically allow you to apply 'styles' programatically to HTML elements, 
+ which saves the work of having to style each on individually, or change them 
+ individually if an updated style wants to be used.
+ - Illustrated the basics of adding images, hyperlinks (anchor tags), and form elements, 
+ along with 'some' of the basics showing how to add buttons, and 'actions' to a 
+ web page. Though this wasn't covered in much detail, because it likely involves a 
+ good amount of javascript. Radiobuttons, checkboxes, submit buttons, etc.
+ - Gets into a bit about adding padding and margins to elements to space them out 
+ appropriately...introduced the 'clockwise' notation for styling from top, right, 
+ bottom, and to the left. What's the difference between padding and margin?
+ - Introduced the <div> element that allows you to 'break' your page down into 
+ separate sections, that can then be individually controlled/styled.
+ - Showed how to use all 16M+ colors using the 'color:#FFA4B9' hex color encodings.
+ - Shows how to use the open-source fonts that google provides on your site.
+ - Create numbered and unordered lists.
